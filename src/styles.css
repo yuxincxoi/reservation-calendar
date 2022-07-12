@@ -1,0 +1,54 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    width: 20rem;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px #545353;
+  }
+
+  .modalBackground {
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+  }
+
+  .button {
+      background-color: black;
+      color: white;
+      padding: 5px 10px;
+      margin: 20px 10px;
+      border-radius: 10px;
+      font-weight: bold;
+  }
+
+  .bookingButton {
+    position: fixed;
+    left: 95%;
+    top: 90%;
+    z-index: 98;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+  }
+
+  .input {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 1px solid rgb(87, 86, 86);
+  }
